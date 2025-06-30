@@ -29,7 +29,7 @@ To validate our method, we build on Fashionpedia to release Sketchy, the first f
 ---
 
 ## Background 
-Fashion design is a complex creative process that blends visual and textual expressions. Sketches and natural language descriptions associated with the same garment convey complementary information for depicting the final design. As a complete outlook design is composed of several clothing garments, multiple natural descriptions are often collected together to outline an outfit. Each description specifies a localized part of design, in terms of silhouette shapes, materials, and textual details, allowing fine-grained localized control over the generation.
+In fashion design, sketches and natural language descriptions associated with the same garment convey complementary information for depicting the final design. As a complete outlook design is composed of several clothing garments, multiple descriptions are often collected together to outline an outfit. Each description (sketch-text pair) specifies a localized part of design, in terms of silhouette shapes, materials, and textual details, allowing fine-grained localized control over the generation. Thus, we frame this problem as a conditional image generation task, where the conditioning consists of a set of localized text-sketch pairs.
 ![Background](/static/image/background.png)
 *Figure 1: Fundamental difference between previous methods and our approach. LOTS is designed to enable fashion image generation with an unprecedented level of control. It represents the natural evolution of fashion design methodologies, progressing from global text and sketches (IP-Adapter) to localized sketches with global text (Multi-T2I). Our approach leverages a global description (omitted here for brevity) alongside a set of localized sketch-text pairs (the coloured boxes), effectively defining both the layout and appearance of individual garment items.*
 
@@ -47,7 +47,7 @@ Next, during the Diffusion Pair Guidance phase, these localized representations 
 - LOTS achieves state-of-the-art performance in image quality, sketch-text conditioning and attribute localization, as measured with both metrics and human evaluation.
 
 ![Performance Comparision](/static/image/result.jpeg)
-*Figure 3: Qualitative comparision between different T2I generative models. More results is available in the paper.*
+*Figure 3: Qualitative comparision between different T2I generative models. More results are available in the paper.*
 
 ## Relevant Works
 x
