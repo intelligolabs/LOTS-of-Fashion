@@ -50,14 +50,14 @@ Next, during the Diffusion Pair Guidance phase, these localized representations 
 *Figure 3: Qualitative comparision between different T2I generative models. More results are available in the paper.*
 
 ## Relevant Works
-We direct interested readers to our concurrent research for discussion of localized text-to-image evaluation: <a href="https://intelligolabs.github.io/CoIN">Project Page</a>
+We direct interested readers to our concurrent research for discussion on localized text-to-image evaluation: <a href="https://intelligolabs.github.io/L-VQAScore">Project Page</a>
 
 ## Citation
 ```
 @inproceedings{federico2025LOTS,
   title={LOTS of Fashion! Multi-Conditioning for Image Generation via Sketch-Text Pairing},
   author={Federico, Girella and Davide, Talon and Ziyue, Liu and Zanxi, Ruan and Yiming, Wang and Marco Cristani},
-  booktitle={Proceedings of the ieee/cvf international conference on computer vision},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2025},
 }
 ```
