@@ -50,7 +50,7 @@ Next, during the Diffusion Pair Guidance phase, these localized representations 
 *Figure 3: Qualitative comparision between different T2I generative models. More results are available in the paper.*
 
 ## Relevant Works
-We direct interested readers to our concurrent research for discussion on localized text-to-image evaluation: <a href="https://intelligolabs.github.io/L-VQAScore">Evaluating Attribute Confusion in Fashion Text-to-Image Generation</a>
+We direct interested readers to our concurrent research for discussion on localized text-to-image evaluation: <a href="https://intelligolabs.github.io/L-VQAScore">Project Page</a>
 
 ## Citation
 ```
